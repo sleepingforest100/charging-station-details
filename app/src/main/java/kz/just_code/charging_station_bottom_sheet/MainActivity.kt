@@ -6,7 +6,7 @@ import kz.just_code.charging_station_bottom_sheet.databinding.ActivityMainBindin
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private val station1Dialog = BottomSheet(true)
+    private val station1Dialog = BottomSheet()
     private val station2Dialog = BottomSheet2(true)
     private val station3Dialog = BottomSheet3(true)
     override fun onCreate(savedInstanceState: Bundle?) {
